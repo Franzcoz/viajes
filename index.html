@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Viajes Chile</title>
 </head>
-<body class="bg-black p-0">
+<body class="bg-black p-0 text-white">
 <!-- Barra de Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid px-2 mx-1 px-md-5 mx-md-3">
-            <a class="navbar-brand text-white" href="#">
+            <a class="navbar-brand" href="#">
             <img src="assets/img/viajes.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
             Viajes Chile
             </a>
@@ -28,16 +28,16 @@
             <div class="collapse navbar-collapse position-relative" id="navbarNav">
                 <ul class="navbar-nav position-absolute end-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Quiénes Somos</a>
+                        <a class="nav-link" href="#">Quiénes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Destacados</a>
+                        <a class="nav-link" href="#">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contacto</a>
+                        <a class="nav-link" href="#">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -45,7 +45,7 @@
     </nav>
 <!-- Carrusel de Imágenes -->
     <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner ratio ratio-16x9">
             <div class="carousel-item active">
                 <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
             </div>
@@ -72,15 +72,21 @@
     <div class="container d-none d-md-block">
     <div class="row">
         <div class="col-4">
-            <i class="fa fa-solid fa-plane"></i>
+            <div class="bg-blue text-center p-2">
+             <i class="fs-3 fa fa-solid fa-plane"></i>
+            </div>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo hic quisquam odit dolores, voluptas optio libero maiores saepe facere! Quasi, asperiores veniam repudiandae qui hic ipsa dignissimos fuga aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt error cumque repellat soluta asperiores eos praesentium qui deserunt laborum quo reprehenderit ab, quasi quas ad atque ea sit eveniet voluptatum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione iure aut, est sunt voluptatem dolorum cum obcaecati nesciunt dicta corporis! Aliquid, consectetur doloremque! Aut pariatur cumque impedit distinctio saepe!</p>
         </div>
         <div class="col-4">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo hic quisquam odit dolores, voluptas optio libero maiores saepe facere! Quasi, asperiores veniam repudiandae qui hic ipsa dignissimos fuga aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt error cumque repellat soluta asperiores eos praesentium qui deserunt laborum quo reprehenderit ab, quasi quas ad atque ea sit eveniet voluptatum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione iure aut, est sunt voluptatem dolorum cum obcaecati nesciunt dicta corporis! Aliquid, consectetur doloremque! Aut pariatur cumque impedit distinctio saepe!</p>
-            <i class="fa fa-solid fa-mountain"></i>
+            <div class="bg-blue text-center p-2">
+             <i class="fs-3 fa fa-solid fa-mountain"></i>
+            </div>
         </div>
         <div class="col-4">
-            <i class="fa fa-solid fa-route"></i>
+            <div class="bg-blue text-center p-2">
+             <i class="fs-3 fa fa-solid fa-route"></i>
+            </div>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo hic quisquam odit dolores, voluptas optio libero maiores saepe facere! Quasi, asperiores veniam repudiandae qui hic ipsa dignissimos fuga aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt error cumque repellat soluta asperiores eos praesentium qui deserunt laborum quo reprehenderit ab, quasi quas ad atque ea sit eveniet voluptatum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione iure aut, est sunt voluptatem dolorum cum obcaecati nesciunt dicta corporis! Aliquid, consectetur doloremque! Aut pariatur cumque impedit distinctio saepe!</p>
         </div>
     </div>
@@ -93,7 +99,9 @@
     <div class="row">
         <div class="col-12 col-sm-6 col-lg-3">
             <div class="card">
-                <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                <div class="ratio ratio-14x9">
+                 <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                </div>
                 <div class="card-body p-0">
                 <p class="p-3 card-text bg-blue">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -101,7 +109,9 @@
         </div>
         <div class="col-12 col-sm-6 col-lg-3">
             <div class="card">
-                <img src="assets/img/card2.jpg" class="card-img-top" alt="..." height="30%">
+                <div class="ratio ratio-14x9">
+                 <img src="assets/img/card2.jpg" class="card-img-top" alt="..." height="30%">
+                </div>
                 <div class="card-body p-0">
                 <p class="p-3 card-text bg-blue">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -109,7 +119,9 @@
         </div>
         <div class="col-12 col-sm-6 col-lg-3">
             <div class="card">
-                <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                <div class="ratio ratio-14x9">
+                 <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                </div>
                 <div class="card-body p-0">
                 <p class="p-3 card-text bg-blue">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -117,7 +129,9 @@
         </div>
         <div class="col-12 col-sm-6 col-lg-3">
             <div class="card">
-                <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                <div class="ratio ratio-14x9">
+                 <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                </div>
                 <div class="card-body p-0">
                 <p class="p-3 card-text bg-blue">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -126,10 +140,12 @@
     </div>
     </div>
 <!-- Formulario Contacto -->
-    <div class="container my-5">
-        <h1 class="d-none d-md-block fs-3 text-center">Contacto</h>
+    <div class="d-block m-0 py-4">
+    <div class="mx-3 border-bottom border-primary border-2">
+        <h1 class="d-md-block fs-3 text-center">Contacto</h>
     </div>
-    <div class="container">
+    </div>
+    <div class="container py-4">
         <legend class="text-white fs-4 text-center">¿A dónde quieres ir?
         </legend>
             <div class="mb-3">
@@ -155,16 +171,16 @@
             <button type="submit" class="btn btn-light start-50">Enviar</button>
     </div>
 <!-- Pie -->
-    <footer>
-        <div class="row m-0 mt-5 bg-blue m-0">
-            <div class="col-6">
-                <h1>VIAJES CHILE</h1>
+    <footer class="m-0 mt-5">
+        <div class="row m-0 bg-blue m-0">
+            <div class="col-6 py-2 d-inline-block">
+                <h1 class="fs-3 fw-bold m-0 text-center align-middle">VIAJES CHILE</h1>
             </div>
-            <div class="col-6">
-                <i class="fa-brands fa-github-square"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-twitter-square"></i>
-                <i class="fa-brands fa-facebook-square"></i>
+            <div class="col-6 py-2 d-inline-block text-center align-middle">
+                <i class="fs-3 fab fa-brands fa-github-square d-inline-block align-middle"></i>
+                <i class="fs-3 fab fa-brands fa-linkedin d-inline-block align-middle"></i>
+                <i class="fs-3 fab fa-brands fa-twitter-square d-inline-block align-middle"></i>
+                <i class="fs-3 fab fa-brands fa-facebook-square d-inline-block align-middle"></i>
             </div>
         </div>
     </footer>
