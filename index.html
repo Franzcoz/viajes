@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Viajes Chile</title>
 </head>
-<body>
+<body class="bg-black p-0">
 <!-- Barra de Navegación -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid px-2 mx-1 px-md-5 mx-md-3">
@@ -44,7 +44,7 @@
         </div>
     </nav>
 <!-- Carrusel de Imágenes -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
@@ -66,74 +66,82 @@
         </button>
     </div>
 <!-- Presentación -->
-    <h1>¿Quiénes somos</h>
-    <div class="container">
+    <div class="container my-5">
+        <h1 class="d-none d-md-block fs-3 text-center">¿Quiénes somos?</h>
+    </div>
+    <div class="container d-none d-md-block">
     <div class="row">
-        <div class="col">
-            <i class="fa-solid fa-plane"></i>
-            <p>>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo hic quisquam odit dolores, voluptas optio libero maiores saepe facere! Quasi, asperiores veniam repudiandae qui hic ipsa dignissimos fuga aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt error cumque repellat soluta asperiores eos praesentium qui deserunt laborum quo reprehenderit ab, quasi quas ad atque ea sit eveniet voluptatum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione iure aut, est sunt voluptatem dolorum cum obcaecati nesciunt dicta corporis! Aliquid, consectetur doloremque! Aut pariatur cumque impedit distinctio saepe!</p>
-        </div>
-        <div class="col">
+        <div class="col-4">
+            <i class="fa fa-solid fa-plane"></i>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo hic quisquam odit dolores, voluptas optio libero maiores saepe facere! Quasi, asperiores veniam repudiandae qui hic ipsa dignissimos fuga aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt error cumque repellat soluta asperiores eos praesentium qui deserunt laborum quo reprehenderit ab, quasi quas ad atque ea sit eveniet voluptatum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione iure aut, est sunt voluptatem dolorum cum obcaecati nesciunt dicta corporis! Aliquid, consectetur doloremque! Aut pariatur cumque impedit distinctio saepe!</p>
-            <i class="fa-solid fa-mountain"></i>
         </div>
-        <div class="col">
-            <i class="fa-solid fa-route"></i>
+        <div class="col-4">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo hic quisquam odit dolores, voluptas optio libero maiores saepe facere! Quasi, asperiores veniam repudiandae qui hic ipsa dignissimos fuga aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt error cumque repellat soluta asperiores eos praesentium qui deserunt laborum quo reprehenderit ab, quasi quas ad atque ea sit eveniet voluptatum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione iure aut, est sunt voluptatem dolorum cum obcaecati nesciunt dicta corporis! Aliquid, consectetur doloremque! Aut pariatur cumque impedit distinctio saepe!</p>
+            <i class="fa fa-solid fa-mountain"></i>
+        </div>
+        <div class="col-4">
+            <i class="fa fa-solid fa-route"></i>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo hic quisquam odit dolores, voluptas optio libero maiores saepe facere! Quasi, asperiores veniam repudiandae qui hic ipsa dignissimos fuga aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt error cumque repellat soluta asperiores eos praesentium qui deserunt laborum quo reprehenderit ab, quasi quas ad atque ea sit eveniet voluptatum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione iure aut, est sunt voluptatem dolorum cum obcaecati nesciunt dicta corporis! Aliquid, consectetur doloremque! Aut pariatur cumque impedit distinctio saepe!</p>
         </div>
     </div>
     </div>
 <!-- Destacados -->
+    <div class="container my-5">
+        <h1 class="d-none d-md-block fs-3 text-center">Destacados</h>
+    </div>
     <div class="container">
     <div class="row">
-        <div class="col">
+        <div class="col-12 col-sm-6 col-lg-3">
             <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                <p class="p-3 card-text bg-blue">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-12 col-sm-6 col-lg-3">
             <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <img src="assets/img/card2.jpg" class="card-img-top" alt="..." height="30%">
+                <div class="card-body p-0">
+                <p class="p-3 card-text bg-blue">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-12 col-sm-6 col-lg-3">
             <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                <p class="p-3 card-text bg-blue">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-12 col-sm-6 col-lg-3">
             <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                <p class="p-3 card-text bg-blue">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
                 </div>
         </div>
     </div>
     </div>
-<!-- Contacto -->
-    <h1>Destacados</h>
-    <form class="p-3 p-5">
-        <legend class="text-white fs-1 text-center">Cuéntanos a dónde quieres ir</legend>
+<!-- Formulario Contacto -->
+    <div class="container my-5">
+        <h1 class="d-none d-md-block fs-3 text-center">Contacto</h>
+    </div>
+    <div class="container">
+        <legend class="text-white fs-4 text-center">¿A dónde quieres ir?
+        </legend>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label fs-3">Nombre</label>
+                <label for="exampleInputEmail1" class="form-label fs-5">Nombre</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Tu nombre" aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label fs-3">Correo electrónico</label>
+                <label for="exampleInputPassword1" class="form-label fs-5">Correo electrónico</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Tu correo electrónico">
             </div>
             <div class="mb-3">
-                <label for="Select" class="form-label fs-3">Destino</label>
+                <label for="Select" class="form-label fs-5">Destino</label>
                 <select id="Select" class="form-select">
                 <option>Temuco</option>
                 <option>Talca</option>
@@ -141,21 +149,23 @@
                 </select>
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label fs-3">Cuéntanos tus dudas</label>
+                <label for="exampleFormControlTextarea1" class="form-label fs-5">Cuéntanos tus dudas</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Me gustaría conocer..."></textarea>
             </div>
             <button type="submit" class="btn btn-light start-50">Enviar</button>
-    </form>
+    </div>
 <!-- Pie -->
-    <footer class="row m-0">
-        <div class="col-6">
-            <h1>VIAJES CHILE</h1>
-        </div>
-        <div class="col-6">
-            <i class="fa-brands fa-github-square"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-twitter-square"></i>
-            <i class="fa-brands fa-facebook-square"></i>
+    <footer>
+        <div class="row m-0 mt-5 bg-blue m-0">
+            <div class="col-6">
+                <h1>VIAJES CHILE</h1>
+            </div>
+            <div class="col-6">
+                <i class="fa-brands fa-github-square"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter-square"></i>
+                <i class="fa-brands fa-facebook-square"></i>
+            </div>
         </div>
     </footer>
 <!-- Option 1: Bootstrap Bundle with Popper -->
