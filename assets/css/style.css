@@ -13,3 +13,7 @@
 .ratio-14x9 {
     --bs-aspect-ratio: 66.7%;
 }
+
+html {
+    scroll-behavior: smooth;
+}

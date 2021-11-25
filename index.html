@@ -1,15 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
     <!-- Metta tags requeridos -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Fuentes -->
+	<link rel="shortcut icon" type="image/svg" href="assets/img/viajes.svg">
+    <!-- Fuentes. fontawesome 5.14.0 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- Estilos CSS -->
+    <!-- Estilos CSS. bootstrap 5.1.3  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Viajes Chile</title>
@@ -28,23 +29,23 @@
             <div class="collapse navbar-collapse position-relative" id="navbarNav">
                 <ul class="navbar-nav position-absolute end-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#carouselExampleControls">Inicio</a>
+                    </li>
+                    <li class="nav-item d-none d-lg-inline-block">
+                        <a class="nav-link" href="#who">Quiénes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quiénes Somos</a>
+                        <a class="nav-link" href="#destac">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Destacados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 <!-- Carrusel de Imágenes -->
-    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide m-0 pb-4" data-bs-ride="carousel">
         <div class="carousel-inner ratio ratio-16x9">
             <div class="carousel-item active">
                 <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
@@ -66,10 +67,10 @@
         </button>
     </div>
 <!-- Presentación -->
-    <div class="container my-5">
-        <h1 class="d-none d-md-block fs-3 text-center">¿Quiénes somos?</h>
+    <div id="who" class="d-none d-lg-block m-0 py-4 mx-4 border-bottom border-primary border-2">
+        <h1 class="fs-3 text-center">¿Quiénes somos?</h>
     </div>
-    <div class="container d-none d-md-block">
+    <div class="m-0 mx-3 p-4 d-none d-lg-block">
     <div class="row">
         <div class="col-4">
             <div class="bg-blue text-center p-2">
@@ -92,95 +93,118 @@
     </div>
     </div>
 <!-- Destacados -->
-    <div class="container my-5">
-        <h1 class="d-none d-md-block fs-3 text-center">Destacados</h>
+    <div id="destac" class="d-block m-0 py-4 mx-4 border-bottom border-primary border-2">
+        <h1 class="d-block fs-3 text-center">Destacados</h>
     </div>
-    <div class="container">
+    <div class="m-0 mx-3 p-4">
     <div class="row">
-        <div class="col-12 col-sm-6 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-3 p-2">
             <div class="card">
                 <div class="ratio ratio-14x9">
-                 <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-0">
-                <p class="p-3 card-text bg-blue">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="card-body bg-blue p-0">
+                    <h3 class="p-3 pb-1 card-text">Lorem ipsum dolor sit amet</h3>
+                    <p class="p-3 pt-1 card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-3 p-2">
             <div class="card">
                 <div class="ratio ratio-14x9">
-                 <img src="assets/img/card2.jpg" class="card-img-top" alt="..." height="30%">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="..." height="30%">
                 </div>
-                <div class="card-body p-0">
-                <p class="p-3 card-text bg-blue">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="card-body bg-blue p-0">
+                    <h3 class="p-3 pb-1 card-text">Lorem ipsum dolor sit amet</h3>
+                    <p class="p-3 pt-1 card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-3 p-2">
             <div class="card">
                 <div class="ratio ratio-14x9">
-                 <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-0">
-                <p class="p-3 card-text bg-blue">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="card-body bg-blue p-0">
+                    <h3 class="p-3 pb-1 card-text">Lorem ipsum dolor sit amet</h2>
+                    <p class="p-3 pt-1 card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-3 p-2">
             <div class="card">
                 <div class="ratio ratio-14x9">
-                 <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-0">
-                <p class="p-3 card-text bg-blue">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="card-body bg-blue p-0">
+                    <h3 class="p-3 pb-1 card-text">Lorem ipsum dolor sit amet</h2>
+                    <p class="p-3 pt-1 card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
                 </div>
                 </div>
         </div>
     </div>
     </div>
 <!-- Formulario Contacto -->
-    <div class="d-block m-0 py-4">
-    <div class="mx-3 border-bottom border-primary border-2">
-        <h1 class="d-md-block fs-3 text-center">Contacto</h>
+    <div id="contact" class="d-block m-0 py-4 mx-4 border-bottom border-primary border-2">
+         <h1 class="d-md-block fs-3 text-center">Contacto</h>
     </div>
-    </div>
-    <div class="container py-4">
-        <legend class="text-white fs-4 text-center">¿A dónde quieres ir?
+    <div class="px-4 pt-4 m-0 mx-4 row">
+        <legend class="text-white fs-4 text-center col-12">¿A dónde quieres ir?
         </legend>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label fs-5">Nombre</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Tu nombre" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label fs-5">Correo electrónico</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Tu correo electrónico">
-            </div>
-            <div class="mb-3">
-                <label for="Select" class="form-label fs-5">Destino</label>
-                <select id="Select" class="form-select">
-                <option>Temuco</option>
-                <option>Talca</option>
-                <option>Osorno</option>
-                </select>
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label fs-5">Cuéntanos tus dudas</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Me gustaría conocer..."></textarea>
-            </div>
-            <button type="submit" class="btn btn-light start-50">Enviar</button>
+        <div class="col-12 col-md-6 mb-3">
+            <label for="exampleInputEmail1" class="form-label fs-5">Nombres</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Tus nombres" aria-describedby="emailHelp">
+        </div>
+        <div class="col-12 col-md-6 mb-3">
+            <label for="exampleInputPassword1" class="form-label fs-5">Apellidos</label>
+            <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Tus apellidos">
+        </div>
+        <div class="col-12 col-md-6 mb-3">
+            <label for="exampleInputEmail1" class="form-label fs-5">Correo electrónico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Tu correo electrónico" aria-describedby="emailHelp">
+        </div>
+        <div class="col-12 col-md-6 mb-3">
+            <label for="Select" class="form-label fs-5">Destino</label>
+            <select id="Select" class="form-select">
+            <option selected>Elige tu destino...</option>
+            <option>Temuco</option>
+            <option>Talca</option>
+            <option>Osorno</option>
+            <option>Traiguén</option>
+            <option>Rancagua</option>
+            <option>Las Bahamas</option>
+            <option>Calama</option>
+            </select>
+        </div>
+    </div>
+    <div class="mx-3 me-4 my-0 p-3">
+        <div class="m-0 p-0">
+        <label for="exampleFormControlTextarea1" class="form-label fs-5">Cuéntanos tus dudas</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Me gustaría conocer..."></textarea>
+        </div>
+    </div>
+    <div class="d-grid col-2 mx-auto p-3 pb-4">
+        <button type="submit" class="form-control btn btn-primary">Enviar</button>
     </div>
 <!-- Pie -->
-    <footer class="m-0 mt-5">
+    <footer class="m-0 pt-4">
         <div class="row m-0 bg-blue m-0">
             <div class="col-6 py-2 d-inline-block">
-                <h1 class="fs-3 fw-bold m-0 text-center align-middle">VIAJES CHILE</h1>
+                <h1 class="fw-bold fs-2 m-0 text-center align-middle">VIAJES CHILE</h1>
             </div>
-            <div class="col-6 py-2 d-inline-block text-center align-middle">
-                <i class="fs-3 fab fa-brands fa-github-square d-inline-block align-middle"></i>
-                <i class="fs-3 fab fa-brands fa-linkedin d-inline-block align-middle"></i>
-                <i class="fs-3 fab fa-brands fa-twitter-square d-inline-block align-middle"></i>
-                <i class="fs-3 fab fa-brands fa-facebook-square d-inline-block align-middle"></i>
+            <div class="col-6 d-inline-block text-center fs-1">
+                <a href="https://www.github.com" class="text-decoration-none text-white">
+                    <i class="mx-2 fab fa-brands fa-github-square d-inline-block align-middle"></i>
+                </a>
+                <a href="https://www.linkedin.com" class="text-decoration-none text-white">
+                    <i class="mx-2 fab fa-brands fa-linkedin d-inline-block align-middle"></i>
+                </a>
+                <a href="https://www.twitter.com" class="text-decoration-none text-white">
+                    <i class="mx-2 fab fa-brands fa-twitter-square d-inline-block align-middle"></i>
+                </a>
+                <a href="https://www.facebook.com" class="text-decoration-none text-white">
+                    <i class="mx-2 fab fa-brands fa-facebook-square d-inline-block align-middle"></i>
+                </a>
             </div>
         </div>
     </footer>
